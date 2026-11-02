@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "righteous",
+        "createdAt": "2026-10-17T18:27:13.256Z",
+        "reason": "user confirmed Groovy style on 2026-10-17; spec/groovy.md names Righteous for headlines"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "dm sans",
+        "createdAt": "2026-10-17T18:27:13.845Z",
+        "reason": "user confirmed Groovy style on 2026-10-17; spec/groovy.md names DM Sans for body"
+      }
+    ]
+  }
+}

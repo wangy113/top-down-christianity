@@ -1,0 +1,16 @@
+{
+  "name": "counselor-of-aksum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A learning game for Chapter 9: advise the throne of Aksum as Christianity arrives, takes hold, and is tested.",
+  "scripts": {
+    "check": "node tests/check-content.mjs",
+    "test:ui": "node tests/ui.mjs",
+    "test": "npm run check && npm run test:ui",
+    "serve": "python -m http.server 8765"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "playwright-core": "^1.64.1"
+  }
+}
